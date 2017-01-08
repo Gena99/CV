@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cv BULLES</title>
+
+<link rel="stylesheet" type="text/css" href="style1.css">
+<link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/semantic.min.css">
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="node_modules/semantic-ui/dist/semantic.min.js"></script>
+    <meta charset="utf-8">
+
+
+</head>
+<body>
+ <div class="ui container">
+        <header class="header"> 
+           <div>
+            <blockquote id="titre" class="bullePensee hidden"> 
+                <h1 class="titre">Développeuse Web</h1>
+            </blockquote>
+            
+            <blockquote id="nom" class="bulleParlante right hidden">
+                <p class="prénom">Pailha Gwenaëlle</p>
+                <div>
+                    <ul>
+                        <li>46 ans</li>
+                        <li>Adresse : Le village 31360 SEPX</li>
+                        <li>Teléphone : 06 61 48 70 55</li>
+                        <li><a href="mailto: gena@e64.net">@mail : gena@e64.net</a></li>
+
+                    </ul> 
+                </div>      
+            </blockquote>
+            <img class="photo" src="./images/visage.jpg"/>
+            </div>
+                
+        </header>
+	
+	<div class="ui horizontal segments">
+  <div class="ui segment">
+  <h2>Compétences</h2>
+    <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</li>
+                </ul>
+  </div>
+  <div class="ui segment">
+  <h2>Formations</h2>
+    <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</li>
+                </ul>
+  </div>
+  <div class="ui segment">
+  <h2>Parcours professionnel</h2>
+    <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</li>
+                </ul>
+  </div>
+</div>
+<div class="ui container">
+	  <div class="ui circular segment">
+  <h2 class="ui header">
+    Permis B
+    <div class="sub header">Langages maîtrisés</div>
+  </h2>
+</div>
+<div class="ui inverted circular segment">
+  <h2 class="ui inverted header">
+    Centres d'intérêts
+    <div class="sub header">Photo, échecs lecture; écriture</div>
+  </h2>
+</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			setTimeout(function(){
+				$('#nom').transition('vertical flip');
+			
+			}, 1000);
+			$('#titre').transition('vertical flip');
+		});
+
+	</script>
+</body>
+</html>
